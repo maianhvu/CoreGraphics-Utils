@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/maianhvu/coregraphics-utils.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/maianhvu/CoreGraphics-Utils.git", :tag => "v#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
