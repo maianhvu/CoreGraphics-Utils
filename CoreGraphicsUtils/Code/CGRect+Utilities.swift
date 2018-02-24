@@ -9,14 +9,14 @@
 import CoreGraphics
 
 extension CGRect {
-    init(center: CGPoint, radius: CGFloat) {
+    public init(center: CGPoint, radius: CGFloat) {
         self.init(x: center.x - radius,
                   y: center.y - radius,
                   width: radius * 2,
                   height: radius * 2)
     }
 
-    var center: CGPoint {
+    public var center: CGPoint {
         return CGPoint(x: midX, y: midY)
     }
 }

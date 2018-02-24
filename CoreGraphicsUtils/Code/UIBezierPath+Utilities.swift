@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIBezierPath {
-    convenience init(vertices: [CGPoint]) {
+    public convenience init(vertices: [CGPoint]) {
         self.init()
 
         vertices.enumerated().forEach { index, point in

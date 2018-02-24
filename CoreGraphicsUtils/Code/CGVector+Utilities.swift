@@ -9,40 +9,40 @@
 import CoreGraphics
 
 extension CGVector {
-    init(point: CGPoint) {
+    public init(point: CGPoint) {
         self.init(dx: point.x, dy: point.y)
     }
 
-    var point: CGPoint {
+    public var point: CGPoint {
         return CGPoint(x: dx, y: dy)
     }
 
-    var squaredNorm: CGFloat {
+    public var squaredNorm: CGFloat {
         return dx * dx + dy * dy
     }
 
-    var length: CGFloat {
+    public var length: CGFloat {
         return sqrt(squaredNorm)
     }
 
-    var angle: CGFloat {
+    public var angle: CGFloat {
         return atan2(-dy, -dx)
     }
 
-    var unit: CGVector {
+    public var unit: CGVector {
         return self / length
     }
 
-    func with(length: CGFloat) -> CGVector {
+    public func with(length: CGFloat) -> CGVector {
         return self * length / self.length
     }
 
-    static func unit(of angle: CGFloat) -> CGVector {
+    public static func unit(of angle: CGFloat) -> CGVector {
         return CGVector(dx: -cos(angle),
                         dy: -sin(angle))
     }
 
-    var orthogonal: CGVector {
+    public var orthogonal: CGVector {
         return CGVector(dx: dy, dy: -dx)
     }
 }

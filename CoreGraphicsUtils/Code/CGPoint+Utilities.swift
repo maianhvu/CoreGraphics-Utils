@@ -9,11 +9,11 @@
 import CoreGraphics
 
 extension CGPoint {
-    init(vector: CGVector) {
+    public init(vector: CGVector) {
         self.init(x: vector.dx, y: vector.dy)
     }
 
-    var vector: CGVector {
+    public var vector: CGVector {
         return CGVector(dx: x, dy: y)
     }
 }
