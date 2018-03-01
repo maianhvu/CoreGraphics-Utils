@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		174A939320417CCF00EAA718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A939220417CCF00EAA718 /* AppDelegate.swift */; };
-		174A939A20417CCF00EAA718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174A939920417CCF00EAA718 /* Assets.xcassets */; };
 		174A939D20417CCF00EAA718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174A939B20417CCF00EAA718 /* LaunchScreen.storyboard */; };
 		174A93A820417CCF00EAA718 /* CoreGraphicsUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A93A720417CCF00EAA718 /* CoreGraphicsUtilsTests.swift */; };
 		174A93B320417CCF00EAA718 /* CoreGraphicsUtilsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A93B220417CCF00EAA718 /* CoreGraphicsUtilsUITests.swift */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		174A938F20417CCF00EAA718 /* CoreGraphicsUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphicsUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174A939220417CCF00EAA718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		174A939920417CCF00EAA718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174A939C20417CCF00EAA718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		174A939E20417CCF00EAA718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174A93A320417CCF00EAA718 /* CoreGraphicsUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicsUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +105,6 @@
 			children = (
 				174A93C020417CE400EAA718 /* Code */,
 				174A939220417CCF00EAA718 /* AppDelegate.swift */,
-				174A939920417CCF00EAA718 /* Assets.xcassets */,
 				174A939B20417CCF00EAA718 /* LaunchScreen.storyboard */,
 				174A939E20417CCF00EAA718 /* Info.plist */,
 			);
@@ -253,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				174A939D20417CCF00EAA718 /* LaunchScreen.storyboard in Resources */,
-				174A939A20417CCF00EAA718 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
